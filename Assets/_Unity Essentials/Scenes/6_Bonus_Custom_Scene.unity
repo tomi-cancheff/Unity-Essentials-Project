@@ -1471,6 +1471,16 @@ PrefabInstance:
       propertyPath: m_VolumeLayerMask.m_Bits
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 2691122297281236477, guid: c2f60fc0c4bb99f40af39eab86a0eac0,
+        type: 3}
+      propertyPath: maxJumps
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2691122297281236477, guid: c2f60fc0c4bb99f40af39eab86a0eac0,
+        type: 3}
+      propertyPath: jumpForce
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3213826575501309972, guid: c2f60fc0c4bb99f40af39eab86a0eac0,
         type: 3}
       propertyPath: m_LocalPosition.x
