@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour
     private void Jump()
     {
         // Reset vertical velocity for predictable jump height in multi-jump scenarios.
-        rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+        rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
         rb.linearVelocity = new Vector3(rb.linearVelocity.x, 0f, rb.linearVelocity.z);
         rb.AddForce(Vector3.up * jumpForce, ForceMode.VelocityChange);
         jumpsUsed++;
